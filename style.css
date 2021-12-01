@@ -1,0 +1,35 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(197, 177, 177);
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+ [class^="col"] {
+  padding: 0 0.5rem;
+} 
+.col {
+  flex: 1 0 0;
+}
+.back-white {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  
+}
+.border-orange {
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 5px;
+}
+
