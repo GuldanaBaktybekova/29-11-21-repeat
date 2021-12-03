@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
- ;
+ 
 }
 * {
   box-sizing: border-box;
@@ -21,6 +21,11 @@ body {
 .col {
   flex: 1 0 0;
 }
+.col-auto {
+  flex: 0 0 auto;
+}
+
+
 /* .back-white {
   background-color: white;
   border-radius: 10px;
@@ -38,8 +43,8 @@ body {
 
 
 .example {
-  margin-top: 10px;
-  background-color: lightblue;
+  padding: 10px;
+  
 }
 
 
